@@ -1,4 +1,5 @@
 import requests
+import discord 
 import os
 os.system('cls')
 token = input(" \033[36m Enter the Discord Token to Login => ")
