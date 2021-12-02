@@ -1,21 +1,5 @@
 import requests
 import os
-import discord
-import random
-import requests
-import time
-import threading
-import base64
-from os import name, chdir
-from os.path import isfile
-from pystyle import Anime, Colorate, Colors, Center, System, Write
-from termcolor import cprint
-import os
-import subprocess
-import socket 
-import random, json, string
-import webbrowser
-
 os.system('cls')
 token = input(" \033[36m Enter the Discord Token to Login => ")
 
@@ -87,80 +71,6 @@ async def Menu():
         await copy_server(guild, copy)
     else:
         await Menu()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @client.event
 async def on_ready():
